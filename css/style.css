@@ -1,0 +1,79 @@
+* {
+  box-sizing: border-box;
+  /* margin: 0; */
+  padding: 0;
+}
+
+body {
+  background: no-repeat;
+  background-size: cover;
+  background-image: url('../img/istockphoto-868991924-612x612.jpg')
+
+}
+
+button {
+  border-radius: 5px;
+}
+
+#container {
+  width: 800px;
+  margin: auto;
+}
+
+header {
+  /* background: blue; */
+}
+
+.header-top {
+  /* background: red; */
+  height: 90px;
+  line-height: 90px;
+}
+
+.logo {
+  height: 80px;
+  vertical-align: middle;
+}
+
+.logo-title {
+  display: inline;
+  color: #FFFFFF
+}
+
+main {
+}
+
+.title-unread{
+  color: #FFFFFF;
+}
+
+.title-unread span {
+  box-sizing: border-box;
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  margin: 10px;
+  padding: 5px;
+  background: #FFA500;
+  border-radius: 50px;
+  text-align: center;
+  line-height: 30px;
+}
+
+.email {
+  background-color: grey;
+  border: 1px solid black;
+  padding: 3px;
+}
+
+.email p {
+  display: inline;
+}
+
+.read {
+  background-color: white;
+}
+
+h3 {
+  text-align: center;
+}
